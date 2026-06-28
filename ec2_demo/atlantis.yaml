@@ -1,0 +1,11 @@
+version: 3
+
+projects:
+  - name: ec2-demo
+    dir: .
+    workspace: default
+    autoplan:
+      when_modified:
+        - "*.tf"
+        - "*.tfvars"
+      enabled: true
