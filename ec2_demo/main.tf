@@ -3,6 +3,6 @@ resource "aws_instance" "demo" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Archana_Ec2"
+    Name = "Ec2_demo"
   }
 }
